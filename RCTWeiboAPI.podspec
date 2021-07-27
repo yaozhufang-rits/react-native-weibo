@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   React-Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment {QQ: 336021910}
    DESC
   s.author       = { "yorkie" => "yorkiefixer@gmail.com" }
-  s.homepage     = "https://github.com/reactnativecn/react-native-weibo"
+  s.homepage     = "https://github.com/yaozhufang-rits/react-native-weibo"
   s.license      = "MIT"
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/reactnativecn/react-native-weibo.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/yaozhufang-rits/react-native-weibo.git", :tag => "master" }
   s.source_files  = "ios/*/*.{h,m}"
   s.dependency "React"
   s.vendored_libraries = "ios/libWeiboSDK.a"
